@@ -39,7 +39,7 @@ public class LingkaranActivity extends AppCompatActivity {
 
         double r = d/2;
         double luas = 3.14*r*r;
-        double keliling = 2*3.14*r;
+        double keliling = 3.14*(r+r);
 
         txtDiameter.setText(panjang);
         txtJari.setText(String.valueOf(r));
